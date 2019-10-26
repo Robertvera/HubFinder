@@ -1,0 +1,19 @@
+{
+  "name": "hubfinder",
+  "version": "1.0.0",
+  "description": "Chrome extension for GitHub keyboard shortcuts",
+  "main": "content.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "Robert Vera",
+  "license": "ISC",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
